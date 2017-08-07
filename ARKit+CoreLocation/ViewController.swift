@@ -22,14 +22,14 @@ class ViewController: UIViewController, MKMapViewDelegate, SceneLocationViewDele
     
     ///Whether to show a map view
     ///The initial value is respected
-    var showMapView: Bool = false
+    var showMapView: Bool = true
     
     var centerMapOnUserLocation: Bool = true
     
     ///Whether to display some debugging data
     ///This currently displays the coordinate of the best location estimate
     ///The initial value is respected
-    var displayDebugging = false
+    var displayDebugging = true
     
     var infoLabel = UILabel()
     
